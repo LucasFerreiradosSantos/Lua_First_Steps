@@ -1,1 +1,1 @@
-Olá
+Olá, esse repositório server para pessoas que querem aprender a codar em lua.
