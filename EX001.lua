@@ -1,0 +1,1 @@
+print("Hello World!") --O comando "print()" faz mostrar qualquer coisa no terminal.
