@@ -9,4 +9,3 @@ while minecraft <= 10 do
     minecraft = minecraft + 1
 
 end
-
