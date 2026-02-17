@@ -1,7 +1,7 @@
 local contagem_low_roll = 0
 local contagem_high_roll = 0
 
-local total_de_simulacoes = 100000000000
+local total_de_simulacoes = 10000
 
 print("Comecando a simulacao de " .. total_de_simulacoes .. " rolagem de dados.")
 
@@ -17,12 +17,6 @@ for i = 1, total_de_simulacoes do
 
             contagem_high_roll = contagem_high_roll + 1
 
-    end
-
-    if i == 25000000000 or i == 50000000000 then
-
-        print(i)
-        
     end
 
 end
