@@ -5,16 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "LuaHelper-Debug",
+            "name": "Debug Lua Interpreter",
+            "type": "lua-local",
             "request": "launch",
-            "name": "LuaHelper-DebugFile",
-            "description": "独立文件调试模式",
-            "luaPath": "",
-            "packagePath": [],
-            "luaFileExtension": "",
-            "connectionPort": 8818,
-            "stopOnEntry": true,
-            "useCHook": true
+            "program": {
+                "lua": "lua",
+                "file": "${file}"
+            }
         },
+        {
+            "name": "Debug Custom Lua Environment",
+            "type": "lua-local",
+            "request": "launch",
+            "program": {
+                "command": "command"
+            },
+            "args": []
+        }
     ]
 }
